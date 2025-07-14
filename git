@@ -1,9 +1,18 @@
+git 에 vs code 코드들을 업로드 하는 법
+git hub 계정을 만들고 레포지터리를 생성한다
+해당 레포지터리에서 [code] 를 클릭하면 나오는 주소를 복사한다
+vs code 에서 좌측 상단 선 세 개 를 클릭하면 여러 카테고리가 나오는데 그 중 Terminal 을 선택한다
+하단에 나온 터미널에 
 
+git init
+git add .
+git commit -m "첫 커밋"
+git branch -M main
+git remote add origin (복사한 GitHub 저장소 URL)
+git push -u origin main
 
-# test 를 해 보았다. 
-# 25.04.07 Mon 
- # git 에서 push하기 위해 주소를 넣고 push 를 합니다. 
- git push origin main 을 씁니다
+를 차례대로 입력한다. 괄호 부분은 상황에 맞게 수정해서 채운다.
 
-
- #
+vs code 에서 git 을 로그인 하라는 창이 뜨면 로그인을 하고 업로드 되는 것을 기다린다
+업로드가 완료되었다면 확인하고 종료한다( 다소 시간이 걸릴 수 있다.)
+Error 가 발생한다면 오류 문구를 읽고 해결한다. 
