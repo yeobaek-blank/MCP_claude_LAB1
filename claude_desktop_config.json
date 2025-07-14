@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "practice": {
+      "command": "uv",
+      "args": [
+        "--directory",
+        "C:\\Users\\[  ]\\OneDrive\\바탕 화면\\new_mcp-server-demo",
+        "run",
+        "server.py"
+      ]
+    }
+  }
+
+  
+  
