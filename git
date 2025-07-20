@@ -4,6 +4,8 @@ git hub 계정을 만들고 레포지터리를 생성한다
 vs code 에서 좌측 상단 선 세 개 를 클릭하면 여러 카테고리가 나오는데 그 중 Terminal 을 선택한다
 하단에 나온 터미널에 
 
+cd "(파일들이 저장된 폴더 주소)"
+
 git init
 git add .
 git commit -m "첫 커밋"
